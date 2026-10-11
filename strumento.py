@@ -6,3 +6,7 @@ class Strumento:
             self.anno = int(anno)
             self.costo = float(costo)
 
+    def __str__(self):
+        return f"{self.codice}: {self.nome}, Marca: {self.marca}, Anno: {self.anno}, Valore: {self.costo}"
+
+
